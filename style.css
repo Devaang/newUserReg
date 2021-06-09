@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(235, 227, 227);
+    font-family: sans-serif;
+}
+h3{
+    font-size: 3rem;
+    margin-bottom: -5px;
+    font-weight: 500;
+}
+.navigation{
+    background-color: #fff;
+}
+.navigation .logo{
+    width: 300px;
+    margin-left: 20px;
+}
+.card{
+    margin: 60px 250px;
+    
+}
+.card-header{
+    text-align: center;
+    line-height: 1;
+    word-spacing: 3px;
+    padding: 15px 80px;
+}
+.card-body{
+    padding: 30px 80px 20px;
+}
+.fullName{
+    margin: 8px 0 30px;
+}
+.birthDay{
+    margin: 8px 0 30px;
+}
+.divAddress{
+    margin-bottom: 5px;
+}
+.card-footer{
+    text-align: center;
+    padding: 20px 0 20px;
+}
+.onlyButton{
+    width: 30%;  
+}
+@media screen and (max-width: 1280px) {
+    .card{
+        margin: 60px 150px ;
+    }
+    h3 {
+    font-size: 2.5rem;
+    margin-bottom: -5px;
+    font-weight: 500;
+}
+    .onlyButton{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card{
+        margin: 30px 50px;
+    }
+    .card-header{
+        
+        padding: 5px 30px;
+    }
+    h3{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .card{
+        margin: 30px 5px !important;
+    }
+}
